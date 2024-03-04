@@ -6,4 +6,5 @@ class Categoria(models.Model):
 
  
     def __str__(self):
-        return self.descricao
+        #return self.descricao
+        return f* {self.descricao} ({self.id})
